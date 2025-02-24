@@ -1,15 +1,15 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
-import BedBug from '../../assets/bedbug.jpg';
-import CockroachControl from '../../assets/cockroach.jpg';
-import MosquitoControl from '../../assets/mosquito.jpg';
-import FlyControl from '../../assets/flycontrol.png';
-import TermitePreConstruction from '../../assets/termite.jpg';
+import BedBug from '../../assets/bedbug.webp';
+import CockroachControl from '../../assets/cockroach.webp';
+import MosquitoControl from '../../assets/mosquito.webp';
+import FlyControl from '../../assets/flycontrol.webp';
+import TermitePreConstruction from '../../assets/termite.webp';
 import SnakeControl from '../../assets/snake.webp';
 import RodentControl from '../../assets/rodent.webp';
 import TermiteControl from '../../assets/termitecontrollast.webp';
-import Alphamethrin10Sc from '../../assets/Alphamethrin10Scban.png';
-import CockroachPasteAgent from '../../assets/cockroachpaste.jpg';
+import Alphamethrin10Sc from '../../assets/Alphamethrin10Scban.webp';
+import CockroachPasteAgent from '../../assets/cockroachpaste.webp';
 
 const Services = () => {
     const scrollToTop = () => {
