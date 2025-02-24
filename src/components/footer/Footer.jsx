@@ -52,15 +52,6 @@ export default function Footer() {
                             </a>
                             . All Rights Reserved.
                         </div>
-
-                        <div class="flex mt-4 space-x-5 sm:mt-0 sm:ml-4">
-                            <Link to="https://cactusbloom.in" class="text-gray-500 hover:text-gray-900" target="_blank" rel="noopener noreferrer">
-                                <svg class="w-6 h-6" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 24 24">
-                                    <path d="M12 0C5.373 0 0 5.373 0 12s5.373 12 12 12 12-5.373 12-12S18.627 0 12 0zm5.72 17.92l-4.44-4.44A8.04 8.04 0 0 1 12 16c-2.21 0-4-1.79-4-4a8.04 8.04 0 0 1 2.28-5.72L6.08 6.08A8.04 8.04 0 0 1 8 8c2.21 0 4 1.79 4 4a8.04 8.04 0 0 1-2.28 5.72l4.44 4.44A8.04 8.04 0 0 1 16 16c2.21 0 4 1.79 4 4a8.04 8.04 0 0 1-2.28-5.72z" />
-                                </svg>
-                                <span class="sr-only">Website</span>
-                            </Link>
-                        </div>
                     </div>
             </div>
         </footer>
