@@ -25,6 +25,7 @@ const Home = () => {
                         <p className="text-lg sm:text-l leading-relaxed">
                             CPC Pest Control is Kolkata's trusted partner for effective and reliable pest solutions. We protect homes and businesses from termites, rodents, mosquitoes, and more.
                         </p>
+                        <br />
                         <Link
                             onClick={scrollToTop} // Call scrollToTop on click
                             className="inline-flex items-center px-6 py-3 font-medium bg-orange-500 hover:bg-orange-700 rounded-lg transition duration-300"
@@ -41,16 +42,6 @@ const Home = () => {
                     <div className="absolute inset-0 bg-black opacity-30"></div>
                 </div>
             </section>
-
-
-            {/* Call to Action Section (Overlapping Image - Adjusted Width) */}
-            <div className="bg-gray-100 py-12 text-center relative z-20 w-full"> {/* Added w-full */}
-                <div className="max-w-7xl mx-auto px-4"> {/* Added container for consistent width */}
-                    <h2 className="text-2xl font-bold mb-4">Ready to Get Rid of Pests?</h2>
-                    <Link  onClick={scrollToTop} to="/contact" className="px-6 py-3 bg-orange-500 hover:bg-orange-700 text-white font-medium rounded-lg transition duration-300">Contact Us Today</Link>
-                </div>
-            </div>
-
         </div>
     );
 };
