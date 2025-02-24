@@ -1,5 +1,5 @@
 import React from 'react';
-import VirusDisinfectionImage from "../../assets/VirusDisinfection-cuate.png";
+import VirusDisinfectionImage from "../../assets/VirusDisinfection-cuate.webp";
 
 export default function About() {
     const scrollToTop = () => {
