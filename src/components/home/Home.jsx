@@ -38,7 +38,7 @@ const Home = () => {
                 </div>
 
                 <div className="absolute inset-0 w-full h-full">
-                    <img className="w-full h-full object-cover" src={PestControlImage} alt="Pest Control" />
+                    <img className="w-full h-full object-cover filter blur-[0.5px]" src={PestControlImage} alt="Pest Control" />
                     <div className="absolute inset-0 bg-black opacity-30"></div>
                 </div>
             </section>
