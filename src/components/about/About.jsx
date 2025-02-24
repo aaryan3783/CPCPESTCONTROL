@@ -13,9 +13,8 @@ export default function About() {
     return (
         <div className="py-16 bg-gray-100">
             <div className="container m-auto px-6 text-gray-800 md:px-12 xl:px-6">
-                <div className="flex flex-col md:flex-row gap-8 lg:items-start"> {/* Changed to items-start */}
-
-                    <div className="md:w-6/12 lg:w-5/12 mt-4 md:mt-0"> {/* Increased width, added margin top */}
+                <div className="flex flex-col md:flex-row gap-8 lg:items-start"> 
+                    <div className="md:w-6/12 lg:w-5/12 mt-4 md:mt-0"> 
                         <img
                             src={VirusDisinfectionImage}
                             alt="Virus Disinfection"
@@ -23,21 +22,21 @@ export default function About() {
                         />
                     </div>
 
-                    <div className="md:w-6/12 lg:w-7/12"> {/* Adjusted width for balance */}
+                    <div className="md:w-6/12 lg:w-7/12"> 
                         <h2 className="text-3xl text-gray-900 font-bold md:text-4xl mb-4">
                             About CPC Pest Control
                         </h2>
 
-                        {/* ... (rest of your text content remains the same) */}
-                        <p className="mt-4 text-lg text-justify">
+                        
+                        <p className="mt-4 text-l text-justify">
                             CPC Pest Control is a leading pest control service provider in West Bengal currently serving Kolkata and nearby towns, dedicated to protecting homes and businesses from unwanted pests. With over 15 recurring clients, we have established a reputation for delivering effective and reliable pest control solutions.
                         </p>
 
-                        <p className="mt-4 text-lg text-justify">
+                        <p className="mt-4 text-l text-justify">
                             We offer a wide range of services, including termite control, rodent control, mosquito control, and more. Our team of experienced professionals uses the latest techniques and environmentally friendly products to ensure the complete elimination of pests and prevent future infestations.
                         </p>
 
-                        <p className="mt-4 text-lg text-justify">
+                        <p className="mt-4 text-l text-justify">
                             At CPC Pest Control, we understand the importance of a pest-free environment. We are committed to providing our clients with personalized service and customized solutions to meet their specific needs. Our goal is to create a safe and healthy environment for our clients, their families, and their employees.
                         </p>
 
@@ -71,11 +70,10 @@ export default function About() {
                             </dl>
                         </div>
 
-                        <div className="mt-8 text-center md:text-left">
+                        <div className="mt-8 text-center md:text-left font-bold">
                             <p className="text-lg">
                                 Contact us today for a free consultation and let us help you create a pest-free environment!
                             </p>
-                            {/* ... (contact button/link) */}
                         </div>
 
                     </div>
