@@ -1,6 +1,6 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
-import PestControlImage from "../../assets/HomePage.png"; // Correct path - VERIFY THIS!
+import PestControlImage from "../../assets/HomePage.webp"; // Correct path - VERIFY THIS!
 
 const Home = () => {
     const scrollToTop = () => {
